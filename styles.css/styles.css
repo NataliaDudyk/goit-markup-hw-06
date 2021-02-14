@@ -791,10 +791,21 @@ footer a {
 }
 .subscribe {
   margin-left: auto;
+
 }
 
 .subscribe p {
   margin-bottom: 20px;
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--secondary-title-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  
 }
 
 .subscribe button {
@@ -1095,7 +1106,7 @@ textarea::placeholder {
 
 .check-box:checked + .label-form-checkbox::before {
   background-color: var(--accent-color);
-  background-image: url(./images/icons/check.svg);
+  background-image: url(../images/icons/check.svg);
   background-size: contain;
   background-origin: border-box;
   border-color: var(--accent-color);
